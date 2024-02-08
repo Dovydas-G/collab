@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <div class="topBelt">
+      <p class="topBeltParagraph">
+        Indias first mobile app for construction industry.
+        <span class="learn-more">Learn More</span>
+      </p>
+    </div>
     <header class="header">
-      <div class="topBelt">
-        <p class="topBeltParagraph">
-          Indias first mobile app for construction industry.
-          <span class="learn-more">Learn More</span>
-        </p>
-      </div>
-
-      <div class="nav-bar">
+      <div class="navigationContainer">
         <div class="logo-container">
           <img src="img/Collab.svg" alt="Logo" />
         </div>
-        <div>
+        <div class="navChoice">
           <ul>
             <li><a href="#"></a>About</li>
             <li><a href="#"></a>Products</li>
@@ -28,9 +33,22 @@
             <li><a href="#"></a>Blog</li>
             <li><a href="#"></a>Shop</li>
           </ul>
-          <button>Request Demo</button>
+          <button class="navButton">Request Demo</button>
         </div>
       </div>
     </header>
+    <main>
+      <section class="headCirclesContainer">
+        <h1 class="headCirclesHeader"></h1>
+        <button class="topHeadButton"></button>
+        <div class="releative">
+          <img class="absolute" src="img/Ellipse 2.svg" alt="" />
+          <img class="absolute" src="img/Ellipse 1.svg" alt="" />
+          <img class="absolute" src="img/Rectangle 3.svg" alt="" />
+          <img class="absolute" src="img/Collab.svg" alt="" />
+          <button class="circlesButton"></button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
